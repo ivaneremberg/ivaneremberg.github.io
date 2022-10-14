@@ -1,0 +1,58 @@
+body
+{
+    background-color: lightgray;
+}
+ 
+h1
+{
+    font-family: sans-serif;
+    font-size: 50px;
+    padding: 0px 25px;
+}
+
+h2
+{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+    padding: 0px 25px;
+}
+
+p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.links
+{
+    text-decoration: none;
+    padding: 0px 50px;
+}
+
+.images
+{
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.button
+{
+    border-radius: 25%;
+}
+
+.texto
+{
+    line-height: 25px;
+    color: darkslategrey;
+    padding: 0px 50px;
+}
+
+.lista
+{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 50px;
+}
