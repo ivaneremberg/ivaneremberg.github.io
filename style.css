@@ -1,58 +1,88 @@
 body
 {
-    background-color: lightgray;
+    background-color: gray;
 }
- 
+.div-main-name
+{
+    position:absolute;
+    width: 1000px;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    background-color: blue;    
+}
+
 h1
 {
-    font-family: sans-serif;
-    font-size: 50px;
-    padding: 0px 25px;
+    background-color: aqua;
+    margin: 10px;
 }
 
-h2
+.div-main-photo
 {
-    font-family:'Courier New', Courier, monospace;
-    font-size: 25px;
-    padding: 0px 25px;
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    top: 100px;
+    left: 0;
+    background-color: darkslategrey;
 }
 
-p
+.profile-picture
 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    line-height: 20px;
-    text-align: justify;
-    text-decoration: none;
+    border-radius: 100%;
+    margin: 20px;
 }
 
-.links
+.div-about-me
 {
-    text-decoration: none;
-    padding: 0px 50px;
-}
-
-.images
-{
-    border-radius: 50%;
-    padding: 10px;
-}
-
-.button
-{
-    border-radius: 25%;
-}
-
-.texto
-{
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    width: 750px;
+    height: 300px;
     line-height: 25px;
     color: darkslategrey;
-    padding: 0px 50px;
+    background-color: green;
 }
 
-.lista
+.about-me-text
 {
-    font-size: 20px;
-    font-weight: bold;
-    padding: 0px 50px;
+    margin: 20px;
+    background-color: lightblue;
+}
+
+.div-links
+{
+    position: absolute;
+    top: 400px;
+    text-decoration: none;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    background-color: yellow;
+    left: 0px;
+}
+
+.text-links
+{
+    margin: 20px;
+    background-color: darkgrey;
+}
+
+.div-skills
+{
+    position: absolute;
+    top: 450px;
+    width: 250px;
+    height: 150px;
+    background-color: orange;
+    left: 0px;
+}
+
+.list-skills
+{
+    margin: 20px;
+    background-color: red;
 }
